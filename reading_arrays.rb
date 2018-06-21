@@ -16,7 +16,7 @@ first_student_by_index
 
 
 def fourth_student_by_index
-  puts STUDENT_NAMES[3]
+  return STUDENT_NAMES[3]
 end
 
 fourth_student_by_index
@@ -24,7 +24,7 @@ fourth_student_by_index
 
 
 def last_student_by_index
-  puts STUDENT_NAMES[5]
+  return STUDENT_NAMES[5]
 end
 
 last_student_by_index
@@ -32,7 +32,7 @@ last_student_by_index
 
 
 def first_student_by_method
-  puts STUDENT_NAMES.first
+  return STUDENT_NAMES.first
 end
 
 first_student_by_method
@@ -40,7 +40,7 @@ first_student_by_method
 
 
 def last_student_by_method
-  puts STUDENT_NAMES.last
+  return STUDENT_NAMES.last
 end
 
 last_student_by_method
@@ -48,9 +48,8 @@ last_student_by_method
 
 
 def first_second_and_third_students
-puts STUDENT_NAMES[0]
-puts STUDENT_NAMES[1]
-puts STUDENT_NAMES[2]
+  return STUDENT_NAMES[0..2]
+
 end
 
 first_second_and_third_students
